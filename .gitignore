@@ -1,0 +1,40 @@
+# Arquivos de ambiente e credenciais
+.env
+*.env.local
+*.env*.local
+
+# Dependências do Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# IDE/Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs e arquivos temporários
+*.log
+*.tmp
+*.temp
+
+# Arquivos de configuração local
+config_local.json
+secrets/
+
+# Banco de dados local (se houver)
+*.db
+*.sqlite
+
+# Arquivos gerados pelo sistema
+.DS_Store
+Thumbs.db
+
+# Arquivos de mídia (opcional, se não forem parte do código)
+*.mp3
+*.wav
+*.jpg
+*.png
